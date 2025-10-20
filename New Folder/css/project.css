@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width:80rem;
+    margin-left:30rem;
+    margin-right:30rem;
+    border: 2px solid linear-gradient(145deg, #f0f0f0, #dcdcdc);
+    border-radius: 2.2rem;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(147, 91, 199);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border: 2px solid rgb(147, 91, 199);
+    padding: 2rem 0.5rem 2.5rem 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;  
+}
+ svg{
+    width: 1.5rem;
+}
+
+ .memeber{
+    border: 2px solid white;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    position: relative;
+    top: -2rem;
+    background-color: white;
+}
+
+  .profiles .img-profiles{
+    width: 50px;
+    height: 50px;
+    border-radius: 10rem;
+    margin-left: 1rem;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.time{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 2px solid  rgb(209, 209, 209);
+    border-radius: 1rem ;
+    background-color: rgb(209, 209, 209);
+}
+.time .line{
+    font-size: 2.5rem;
+    opacity:0.2;
+}
+.center{
+    width: 100px;
+    height: 3px;
+    background-color: darkgray;
+    margin-top: 0.1rem;
+    margin-right: 2.8rem;
+    border-radius: 2rem;
+    
+} 
+.time li{
+
+    padding-bottom: 0.5rem;
+     font-size: 18px; 
+    list-style-type: none;
+    padding-right: 2rem ;
+    padding-left: 2rem;
+} 
+ .times-date .note-date{
+    margin: 1rem;
+    font-weight: bold;
+}
+.timeline .box-timeline1, .box-timeline3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: rgb(209, 209, 209);
+    border-radius: 0.5rem;
+    border-left: 10px solid rgb(190, 103, 188);
+    margin: 1rem;
+    padding: 0.7rem 1rem;
+}
+
+.timeline .box-timeline2, .box-timeline4 {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: rgb(209, 209, 209);
+    border-radius: 0.5rem;
+    border-left: 10px solid rgb(224, 23, 23);
+    margin: 1rem;
+    padding: 0.7rem 1rem;
+}
+
+.timeline p:not([class=note-time])  {
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.timeline .note-time{
+    margin: 1rem;
+    font-weight: bold;
+}
+.box-info{
+    display: flex;
+    gap: 0.2rem; 
+    padding: 0.1rem;       
+}
+
+.timeline h3{
+    padding: 0.5rem;
+}
